@@ -7,14 +7,8 @@
         <artifactId>spring-boot-parent</artifactId>
         <version>3.0.1</version>
     </parent>
-
-    <groupId>top.yqingyu</groupId>
-    <artifactId>yqingyu-parent</artifactId>
-    <version>1.9.0</version>
-    <packaging>pom</packaging>
-    <modelVersion>4.0.0</modelVersion>
-
     <properties>
+        <qy.version>1.9.1</qy.version>
         <java.version>17</java.version>
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
@@ -35,27 +29,35 @@
         <mvn-assembly-plugin.version>3.3.0</mvn-assembly-plugin.version>
     </properties>
 
+    <groupId>top.yqingyu</groupId>
+    <artifactId>yqingyu-parent</artifactId>
+    <version>1.9.1</version>
+    <packaging>pom</packaging>
+    <modelVersion>4.0.0</modelVersion>
+
+
+
     <dependencyManagement>
         <dependencies>
             <dependency>
                 <groupId>top.yqingyu</groupId>
                 <artifactId>commons-qy</artifactId>
-                <version>${project.version}</version>
+                <version>${qy.version}</version>
             </dependency>
             <dependency>
                 <groupId>top.yqingyu</groupId>
                 <artifactId>QyHttpServer</artifactId>
-                <version>${project.version}</version>
+                <version>${qy.version}</version>
             </dependency>
             <dependency>
                 <groupId>top.yqingyu</groupId>
                 <artifactId>TransClient</artifactId>
-                <version>${project.version}</version>
+                <version>${qy.version}</version>
             </dependency>
             <dependency>
                 <groupId>top.yqingyu</groupId>
                 <artifactId>TransServer</artifactId>
-                <version>${project.version}</version>
+                <version>${qy.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.alibaba.fastjson2</groupId>
@@ -193,17 +195,17 @@
         <!--发布到中央SNAPSHOT仓库插件-->
         <plugins>
             <!--                    SNAPSHOT版本插件-->
-            <plugin>
-                <groupId>org.sonatype.plugins</groupId>
-                <artifactId>nexus-staging-maven-plugin</artifactId>
-                <version>1.6.7</version>
-                <extensions>true</extensions>
-                <configuration>
-                    <serverId>ossrh</serverId>
-                    <nexusUrl>https://s01.oss.sonatype.org/</nexusUrl>
-                    <autoReleaseAfterClose>true</autoReleaseAfterClose>
-                </configuration>
-            </plugin>
+<!--            <plugin>-->
+<!--                <groupId>org.sonatype.plugins</groupId>-->
+<!--                <artifactId>nexus-staging-maven-plugin</artifactId>-->
+<!--                <version>1.6.7</version>-->
+<!--                <extensions>true</extensions>-->
+<!--                <configuration>-->
+<!--                    <serverId>ossrh</serverId>-->
+<!--                    <nexusUrl>https://s01.oss.sonatype.org/</nexusUrl>-->
+<!--                    <autoReleaseAfterClose>true</autoReleaseAfterClose>-->
+<!--                </configuration>-->
+<!--            </plugin>-->
 
             <!--release版本插件-->
             <plugin>
