@@ -32,7 +32,7 @@
 
     <groupId>top.yqingyu</groupId>
     <artifactId>yqingyu-parent</artifactId>
-    <version>1.9.1</version>
+    <version>1.9.2</version>
     <packaging>pom</packaging>
     <modelVersion>4.0.0</modelVersion>
 
