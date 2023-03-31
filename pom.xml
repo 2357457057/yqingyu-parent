@@ -5,19 +5,19 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-parent</artifactId>
-        <version>3.0.1</version>
+        <version>3.0.5</version>
     </parent>
     <properties>
         <qy.version>1.9.2</qy.version>
         <java.version>17</java.version>
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
-        <open-javafx.vsersion>19</open-javafx.vsersion>
+        <open-javafx.vsersion>20</open-javafx.vsersion>
         <open-javafx-mvn.vsersion>0.0.8</open-javafx-mvn.vsersion>
-        <fastjson2.vserion>2.0.22</fastjson2.vserion>
+        <fastjson2.vserion>2.0.26</fastjson2.vserion>
         <javax.annotation.version>1.3.2</javax.annotation.version>
-        <hutool.version>5.8.11</hutool.version>
-        <jwt.version>4.2.1</jwt.version>
+        <hutool.version>5.8.16</hutool.version>
+        <jwt.version>4.3.0</jwt.version>
         <jsch.vsersion>0.1.55</jsch.vsersion>
         <commons-net.version>3.9.0</commons-net.version>
         <commons-io.version>2.11.0</commons-io.version>
@@ -33,6 +33,11 @@
         <mvn-source.version>2.2.1</mvn-source.version>
         <mvn-javadoc.version>2.9.1</mvn-javadoc.version>
         <mvn-gpg.version>1.5</mvn-gpg.version>
+        <snakeyaml.version>2.0</snakeyaml.version>
+        <bouncycastle.version>1.72</bouncycastle.version>
+        <logback.version>1.4.6</logback.version>
+        <redis.version>4.3.2</redis.version>
+        <slf4j.version>2.0.7</slf4j.version>
     </properties>
 
     <groupId>top.yqingyu</groupId>
@@ -44,6 +49,16 @@
 
     <dependencyManagement>
         <dependencies>
+            <dependency>
+                <groupId>org.slf4j</groupId>
+                <artifactId>slf4j-api</artifactId>
+                <version>${slf4j.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>ch.qos.logback </groupId>
+                <artifactId>logback-classic</artifactId>
+                <version>${logback.version}</version>
+            </dependency>
             <dependency>
                 <groupId>top.yqingyu</groupId>
                 <artifactId>commons-qy</artifactId>
@@ -185,7 +200,26 @@
                 <artifactId>netty-all</artifactId>
                 <version>${netty.version}</version>
             </dependency>
-
+            <dependency>
+                <groupId>org.yaml</groupId>
+                <artifactId>snakeyaml</artifactId>
+                <version>${snakeyaml.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>redis.clients</groupId>
+                <artifactId>jedis</artifactId>
+                <version>${redis.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.bouncycastle</groupId>
+                <artifactId>bcprov-jdk18on</artifactId>
+                <version>${bouncycastle.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.bouncycastle</groupId>
+                <artifactId>bcpkix-jdk18on</artifactId>
+                <version>${bouncycastle.version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
     <build>
