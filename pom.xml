@@ -55,7 +55,7 @@
                 <version>${slf4j.version}</version>
             </dependency>
             <dependency>
-                <groupId>ch.qos.logback </groupId>
+                <groupId>ch.qos.logback</groupId>
                 <artifactId>logback-classic</artifactId>
                 <version>${logback.version}</version>
             </dependency>
@@ -219,6 +219,12 @@
                 <groupId>org.bouncycastle</groupId>
                 <artifactId>bcpkix-jdk18on</artifactId>
                 <version>${bouncycastle.version}</version>
+            </dependency>
+            <!--            视频解析-->
+            <dependency>
+                <groupId>ws.schild</groupId>
+                <artifactId>jave-all-deps</artifactId>
+                <version>3.3.1</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
