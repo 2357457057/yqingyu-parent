@@ -16,7 +16,7 @@
         <open-javafx-mvn.vsersion>0.0.8</open-javafx-mvn.vsersion>
         <fastjson2.vserion>2.0.26</fastjson2.vserion>
         <javax.annotation.version>1.3.2</javax.annotation.version>
-        <hutool.version>5.8.16</hutool.version>
+        <hutool.version>5.8.19</hutool.version>
         <jwt.version>4.3.0</jwt.version>
         <jsch.vsersion>0.1.55</jsch.vsersion>
         <commons-net.version>3.9.0</commons-net.version>
@@ -26,7 +26,7 @@
         <oracle-jdbc.version>19.3.0.0</oracle-jdbc.version>
         <log4j.version>1.2.17</log4j.version>
         <jakarta.servlet-api.version>6.0.0</jakarta.servlet-api.version>
-        <netty.version>4.1.86.Final</netty.version>
+        <netty.version>4.1.93.Final</netty.version>
         <mvn-assembly-plugin.version>3.3.0</mvn-assembly-plugin.version>
         <mvn-nexus-staging.version>1.6.7</mvn-nexus-staging.version>
         <mvn-release.version>2.5.3</mvn-release.version>
@@ -36,7 +36,7 @@
         <snakeyaml.version>2.0</snakeyaml.version>
         <bouncycastle.version>1.72</bouncycastle.version>
         <logback.version>1.4.6</logback.version>
-        <redis.version>4.3.2</redis.version>
+        <redis.version>4.4.2</redis.version>
         <slf4j.version>2.0.7</slf4j.version>
     </properties>
 
