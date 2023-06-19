@@ -12,11 +12,11 @@
         <java.version>17</java.version>
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
-        <open-javafx.vsersion>20</open-javafx.vsersion>
+        <open-javafx.vsersion>20.0.1</open-javafx.vsersion>
         <open-javafx-mvn.vsersion>0.0.8</open-javafx-mvn.vsersion>
-        <fastjson2.vserion>2.0.26</fastjson2.vserion>
+        <fastjson2.vserion>2.0.34</fastjson2.vserion>
         <javax.annotation.version>1.3.2</javax.annotation.version>
-        <hutool.version>5.8.19</hutool.version>
+        <hutool.version>5.8.20</hutool.version>
         <jwt.version>4.3.0</jwt.version>
         <jsch.vsersion>0.1.55</jsch.vsersion>
         <commons-net.version>3.9.0</commons-net.version>
@@ -35,7 +35,7 @@
         <mvn-gpg.version>1.5</mvn-gpg.version>
         <snakeyaml.version>2.0</snakeyaml.version>
         <bouncycastle.version>1.72</bouncycastle.version>
-        <logback.version>1.4.6</logback.version>
+        <logback.version>1.4.8</logback.version>
         <redis.version>4.4.2</redis.version>
         <slf4j.version>2.0.7</slf4j.version>
     </properties>
