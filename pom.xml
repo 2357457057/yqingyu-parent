@@ -84,6 +84,16 @@
                 <version>${project.version}</version>
             </dependency>
             <dependency>
+                <groupId>top.yqingyu</groupId>
+                <artifactId>QyRpc</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>top.yqingyu</groupId>
+                <artifactId>qyrpc-spring-boot-starter</artifactId>
+                <version>1.9.4</version>
+            </dependency>
+            <dependency>
                 <groupId>com.alibaba.fastjson2</groupId>
                 <artifactId>fastjson2</artifactId>
                 <version>${fastjson2.vserion}</version>
