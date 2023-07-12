@@ -39,6 +39,7 @@
         <logback.version>1.4.8</logback.version>
         <redis.version>4.4.2</redis.version>
         <slf4j.version>2.0.7</slf4j.version>
+        <javax-validation.version>2.0.1.Final</javax-validation.version>
     </properties>
 
     <groupId>top.yqingyu</groupId>
@@ -251,6 +252,11 @@
                 <groupId>ws.schild</groupId>
                 <artifactId>jave-all-deps</artifactId>
                 <version>3.3.1</version>
+            </dependency>
+            <dependency>
+                <groupId>javax.validation</groupId>
+                <artifactId>validation-api</artifactId>
+                <version>${javax-validation.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
