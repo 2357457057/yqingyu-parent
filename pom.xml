@@ -11,9 +11,9 @@
         <java.version>17</java.version>
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
-        <open-javafx.vsersion>20.0.1</open-javafx.vsersion>
+        <open-javafx.vsersion>22.0.1</open-javafx.vsersion>
         <open-javafx-mvn.vsersion>0.0.8</open-javafx-mvn.vsersion>
-        <fastjson2.vserion>22.0.1</fastjson2.vserion>
+        <fastjson2.vserion>2.0.51</fastjson2.vserion>
         <javax.annotation.version>1.3.2</javax.annotation.version>
         <hutool.version>5.8.28</hutool.version>
         <jwt.version>4.4.0</jwt.version>
@@ -49,7 +49,7 @@
 
     <groupId>top.yqingyu</groupId>
     <artifactId>yqingyu-parent</artifactId>
-    <version>1.9.8</version>
+    <version>1.9.9</version>
     <packaging>pom</packaging>
     <modelVersion>4.0.0</modelVersion>
 
