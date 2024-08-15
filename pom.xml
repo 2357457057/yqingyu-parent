@@ -15,19 +15,19 @@
         <open-javafx-mvn.vsersion>0.0.8</open-javafx-mvn.vsersion>
         <fastjson2.vserion>2.0.52</fastjson2.vserion>
         <javax.annotation.version>1.3.2</javax.annotation.version>
-        <hutool.version>5.8.28</hutool.version>
+        <hutool.version>5.8.31</hutool.version>
         <jwt.version>4.4.0</jwt.version>
-        <jsch.vsersion>0.1.55</jsch.vsersion>
+        <jsch.vsersion>0.2.19</jsch.vsersion>
         <commons-net.version>3.11.1</commons-net.version>
         <commons-io.version>2.16.1</commons-io.version>
         <mybatis-spring-boot-starter.version>3.0.3</mybatis-spring-boot-starter.version>
         <mp.version>3.5.7</mp.version>
         <dynamic-ds.version>4.3.1</dynamic-ds.version>
         <retrofit.version>2.11.0</retrofit.version>
-        <oracle-jdbc.version>19.3.0.0</oracle-jdbc.version>
+        <oracle-jdbc.version>23.5.0.24.07</oracle-jdbc.version>
         <log4j.version>1.2.17</log4j.version>
         <jakarta.servlet-api.version>6.1.0</jakarta.servlet-api.version>
-        <netty.version>4.2.0.Alpha1</netty.version>
+        <netty.version>4.2.0.Alpha2</netty.version>
         <mvn-assembly-plugin.version>3.3.0</mvn-assembly-plugin.version>
         <mvn-nexus-staging.version>1.6.7</mvn-nexus-staging.version>
         <mvn-release.version>2.5.3</mvn-release.version>
@@ -37,8 +37,8 @@
         <snakeyaml.version>2.0</snakeyaml.version>
         <bouncycastle.version>1.72</bouncycastle.version>
         <logback.version>1.5.6</logback.version>
-        <redis.version>5.1.3</redis.version>
-        <slf4j.version>2.0.13</slf4j.version>
+        <redis.version>5.1.4</redis.version>
+        <slf4j.version>2.0.16</slf4j.version>
         <javax-validation.version>2.0.1.Final</javax-validation.version>
         <jakarta.validation.version>3.1.0</jakarta.validation.version>
         <jsup.version>1.17.2</jsup.version>
@@ -137,7 +137,7 @@
                 <version>${hutool.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.jcraft</groupId>
+                <groupId>com.github.mwiede</groupId>
                 <artifactId>jsch</artifactId>
                 <version>${jsch.vsersion}</version>
             </dependency>
@@ -173,8 +173,8 @@
                 <version>${retrofit.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.oracle.ojdbc</groupId>
-                <artifactId>ojdbc8</artifactId>
+                <groupId>com.oracle.database.jdbc</groupId>
+                <artifactId>ojdbc11</artifactId>
                 <version>${oracle-jdbc.version}</version>
             </dependency>
             <dependency>
