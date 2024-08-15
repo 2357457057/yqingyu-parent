@@ -436,5 +436,9 @@
         <developerConnection>scm:git:ssh://git@gitee.com:vqingyu/yqingyu-parent.git</developerConnection>
         <url>https://gitee.com/vqingyu/yqingyu-parent</url>
     </scm>
+    <organization>
+        <name>SeverusQy</name>
+        <url>https://github.com/2357457057</url>
+    </organization>
 
 </project>
